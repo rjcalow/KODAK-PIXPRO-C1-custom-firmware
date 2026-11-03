@@ -1,0 +1,20 @@
+# Personal sample photos
+sample photos/
+
+# Third-party LUTs (not ours to redistribute; put your own .cube files here to build)
+lut examples/
+
+# Kodak firmware and builds derived from it (users patch their own stock C110.bin)
+*.bin
+C1_v1.04.zip
+build archive/
+build/
+
+# Kodak's manual (download it from Kodak instead)
+instruction manual.pdf
+
+# Local tooling
+.claude/
+__pycache__/
+*.pyc
+.venv*/
